@@ -1,0 +1,53 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <title>Real Estate</title>
+    {{ style('css/bulma.min') }}
+    {{ style('css/style') }}
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="level">
+          <p class="level-item has-text-centered">
+            <a class="link is-info">Home</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="link is-info">Menu</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <img src="https://png.pngtree.com/element_pic/17/02/15/5e5128619e42b18854d54b42a41cce5e.jpg" alt="" style="height: 50px;">
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="link is-info">Reservations</a>
+          </p>
+          <p class="level-item has-text-centered">
+            <a class="link is-info">Contact</a>
+          </p>
+        </nav>
+      </div>
+    </header>
+    <div class="body">
+      @section('content')
+      <p>Hola</p>
+      @endsection      
+    </div>
+    <footer class="footer">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+        <p>
+          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+        </p>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    @section('scripts')
+    @endsection
+  </body>
+  </html>
