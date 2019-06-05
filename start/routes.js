@@ -17,3 +17,11 @@
 const Route = use('Route')
 
 Route.on('/').render('welcome')
+
+
+Route.group(() => {
+
+	Route.resource('dashboard', 'DashboardController')
+	Route.resource('properties', 'PropertyController')
+}).prefix('admin')
+
